@@ -1,0 +1,114 @@
+/* Para degrade no texto utilizar: 
+-webkit-background-clip: text ...;*/
+@import url(reset.css);
+
+body {
+    background-color: black;
+}
+p {
+    color: white;
+    padding: 20px;
+}
+h2 {
+    color: #33A8DB;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+    padding: 20px;
+}
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, .9), rgba(49, 168, 221, .5), rgba(0, 0, 0, .9)), url(../images/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 605px;
+    padding-top: 60px;
+    border-bottom: 2px solid #33A8DB80;
+}
+[title="Logotipo Trilha de CSS DIO"] {
+    filter: drop-shadow(0px 0px 20px black);
+}
+.banner h1 {
+    background: -webkit-linear-gradient(#33A8DB, #1472B7);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 2rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.banner p {
+    margin: 10px 0 20px;
+    font-size: 1.30rem;
+}
+.banner-content {
+    text-align: center;
+    margin: auto;
+    width: 600px;
+}
+.banner-content button {
+    color: #31A8DD;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: bold;
+    font-size: 1rem;
+    border-image: linear-gradient(#3BA1CD, #1572B7);
+    border-image-slice: 10;
+    padding: 16px 32px;
+    background-color: transparent;
+}
+#course-content {
+    text-align: center;
+    margin: auto;
+    width: 900px;
+    padding: 100px;
+}
+.modules-list .module {
+    color: white;
+    background-color: #252525;
+    border: 1px solid #33A8DB;
+    border-radius: 100px;
+    margin: 0 auto 30px;
+    width: 535px;
+    padding: 16px;
+    box-shadow: inset -5px 5px 10px 0px rgba(0, 0, 0, .5);
+}
+.modules-list .module span {
+    color: #33A8DB;
+}
+#transform-world {
+    background-image: url(../images/woman-code.png);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 960;
+    padding: 200px;
+    border-top: 2px solid #33A8DB80;
+    border-bottom: 2px solid #33A8DB80;
+ }
+ #transform-world p {
+    text-shadow: 3px 2px #33A8DB;
+    font-size: 3rem;
+    font-weight: 800;
+    max-width: 250px;
+    text-transform: lowercase;
+ }
+ #professional-challenges {
+    text-align: center;
+    width: 900px;
+    margin: auto;
+    padding: 70px;
+ }
+ footer {
+    border-top: 2px solid #33A8DB80;
+    text-align: center;
+    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+    padding: 50px 0;
+ }
+ footer a {
+    color: #33A8DB;
+    font-weight: bold;
+    text-decoration: none;
+ }
+ footer .dio-logo {
+    width: 310px;
+ }
